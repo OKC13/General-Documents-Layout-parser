@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c9d4833c-7aa3-4202-ac4d-14b5ba2c206b" name="Changes" comment="first init">
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README_YOLO_v5.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README_v3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/get_coco2017.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/layout.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/01_check_img.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/02_check_box.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/03_train_val_split.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/04_myData_label.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/fund/images/train/201708251238438510.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/fund/images/val.shapes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/fund/images/val/201903261057062841.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/fund/labels/train/201708251238438510.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/fund/labels/val/201903261057062841.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/gen_custom_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_wts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gunicorn_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hubconf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inference/images/val_0007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inference/output/201805221604304170.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inference/output/201805221604304171.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inference/output/201809031558147990.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inference/output/201909051334537940.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inference/output/202206080931095200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inference/output/202207221613368470.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inference/output/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inference/output/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inference/output/企业微信截图_16760226232815.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inference/output/景顺长城价值驱动一年持有期灵活配置混合型基金一页通 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/experimental.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/onnx_export.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/score/yolov5l.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/score/yolov5m.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/score/yolov5s.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/score/yolov5x.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/yolo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/yolov3-spp.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/yolov5l.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/yolov5m.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/yolov5s.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/yolov5x.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/activations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/datasets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/google_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/torch_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov5_trt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HfQpKmNQVVHpWvNhbtCyz1EIrJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\合同审查\keras-yolo3-master\YOLOv5" />
+      <recent name="E:\合同审查\keras-yolo3-master\YOLOv5\基金数据集\人工标注数据集" />
+      <recent name="E:\合同审查\keras-yolo3-master\YOLOv5\基金数据集\景顺真实数据集" />
+      <recent name="E:\合同审查\keras-yolo3-master\YOLOv5\基金数据集\ 获奖信息" />
+      <recent name="E:\合同审查\keras-yolo3-master\YOLOv5\data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.toy——torch">
+    <configuration name="合并数据" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="YOLOv5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/基金数据集/人工标注数据集" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/基金数据集/人工标注数据集/合并数据.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="YOLOv5" type="PythonConfigurationType" factoryName="Python">
+      <module name="YOLOv5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cut_tables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="YOLOv5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cut_tables.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fund_layout_reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="YOLOv5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fund_layout_reader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tmp——huawei" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="YOLOv5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tmp——huawei.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="toy——torch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="YOLOv5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/toy——torch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.toy——torch" />
+        <item itemvalue="Python.fund_layout_reader" />
+        <item itemvalue="Python.cut_tables" />
+        <item itemvalue="Python.合并数据" />
+        <item itemvalue="Python.tmp——huawei" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9d4833c-7aa3-4202-ac4d-14b5ba2c206b" name="Changes" comment="" />
+      <created>1668673840481</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668673840481</updated>
+      <workItem from="1668673842592" duration="1337000" />
+      <workItem from="1673255639692" duration="3824000" />
+      <workItem from="1676008735333" duration="1222000" />
+      <workItem from="1676022777100" duration="7616000" />
+      <workItem from="1681695696810" duration="599000" />
+      <workItem from="1683889889764" duration="4600000" />
+      <workItem from="1688369062765" duration="664000" />
+      <workItem from="1688713405925" duration="656000" />
+      <workItem from="1689220202669" duration="2286000" />
+      <workItem from="1690360739366" duration="1220000" />
+      <workItem from="1690449885577" duration="3336000" />
+      <workItem from="1692685272412" duration="4097000" />
+      <workItem from="1693964646478" duration="10186000" />
+      <workItem from="1694485493269" duration="31263000" />
+      <workItem from="1694999557058" duration="130244000" />
+      <workItem from="1696754901071" duration="202675000" />
+      <workItem from="1698111128963" duration="6701000" />
+      <workItem from="1698628032606" duration="3833000" />
+      <workItem from="1698807662003" duration="20977000" />
+      <workItem from="1699319450607" duration="6126000" />
+      <workItem from="1699493703877" duration="16920000" />
+      <workItem from="1700121097116" duration="7762000" />
+    </task>
+    <task id="LOCAL-00001" summary="first init">
+      <created>1668675148946</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668675148946</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first init" />
+    <option name="LAST_COMMIT_MESSAGE" value="first init" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/custom_data/人工标记的基金版面数据/处理旧版fund数据.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/custom_data/labelme2coco128.py</url>
+          <line>265</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/xy_cut/xycut.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/YOLOv5$cdla__1_.coverage" NAME="处理cdla数据集 (1) Coverage Results" MODIFIED="1697093726091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/custom_data" />
+    <SUITE FILE_PATH="coverage/YOLOv5$fund.coverage" NAME="合并数据到fund文件夹中 Coverage Results" MODIFIED="1697431799701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/custom_data/人工标记的基金版面数据" />
+    <SUITE FILE_PATH="coverage/YOLOv5$gen_fundLLM_dataset.coverage" NAME="gen_fundLLM_dataset Coverage Results" MODIFIED="1698826766047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/YOLOv5$xycut.coverage" NAME="xycut Coverage Results" MODIFIED="1698128219500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_cut" />
+    <SUITE FILE_PATH="coverage/YOLOv5$coco2coco128.coverage" NAME="coco2coco128 Coverage Results" MODIFIED="1697097034415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/custom_data" />
+    <SUITE FILE_PATH="coverage/YOLOv5$test.coverage" NAME="test Coverage Results" MODIFIED="1695869740654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/label-studio-ml-backend-master/label_studio_ml/examples/yolo5" />
+    <SUITE FILE_PATH="coverage/YOLOv5$sample.coverage" NAME="sample Coverage Results" MODIFIED="1696996322877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_cut" />
+    <SUITE FILE_PATH="coverage/YOLOv5$get_data.coverage" NAME="get_data Coverage Results" MODIFIED="1694746851689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/custom_data/doclaynet_small" />
+    <SUITE FILE_PATH="coverage/YOLOv5$merge_bbox2bolck.coverage" NAME="merge_bbox2bolck Coverage Results" MODIFIED="1698031247830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xy_cut" />
+    <SUITE FILE_PATH="coverage/YOLOv5$detect.coverage" NAME="detect Coverage Results" MODIFIED="1697434866506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/YOLOv5$tmphuawei.coverage" NAME="tmp——huawei Coverage Results" MODIFIED="1698827100226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/YOLOv5$label.coverage" NAME="新版数据的label替换 Coverage Results" MODIFIED="1697176606134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/custom_data/人工标记的基金版面数据" />
+    <SUITE FILE_PATH="coverage/YOLOv5$toytorch.coverage" NAME="toy——torch Coverage Results" MODIFIED="1699941693700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/YOLOv5$train.coverage" NAME="train Coverage Results" MODIFIED="1694485887626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/YOLOv5$infer.coverage" NAME="infer Coverage Results" MODIFIED="1697177728434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/YOLOv5$opencv.coverage" NAME="opencv版面 Coverage Results" MODIFIED="1695721211054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基金数据集" />
+    <SUITE FILE_PATH="coverage/YOLOv5$labelme2coco128.coverage" NAME="labelme2coco128 Coverage Results" MODIFIED="1697083267052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/custom_data" />
+    <SUITE FILE_PATH="coverage/YOLOv5$fund_layout_reader.coverage" NAME="fund_layout_reader Coverage Results" MODIFIED="1699513653783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/YOLOv5$paser_with_layout.coverage" NAME="paser_with_layout Coverage Results" MODIFIED="1696996032497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/YOLOv5$.coverage" NAME="合并数据 Coverage Results" MODIFIED="1698831460871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基金数据集/人工标注数据集" />
+    <SUITE FILE_PATH="coverage/YOLOv5$tttttttt.coverage" NAME="tttttttt Coverage Results" MODIFIED="1683890837641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/YOLOv5$cut_tables.coverage" NAME="cut_tables Coverage Results" MODIFIED="1699409242016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/YOLOv5$ml.coverage" NAME="ml Coverage Results" MODIFIED="1695867252768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/label-studio-ml-backend-master/label_studio_ml/examples/yolo5" />
+    <SUITE FILE_PATH="coverage/YOLOv5$pdf2pics.coverage" NAME="pdf2pics Coverage Results" MODIFIED="1695871624409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基金数据集" />
+    <SUITE FILE_PATH="coverage/YOLOv5$voc2coco128.coverage" NAME="voc2coco128 Coverage Results" MODIFIED="1697431612221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/custom_data" />
+    <SUITE FILE_PATH="coverage/YOLOv5$YOLOv5.coverage" NAME="YOLOv5 Coverage Results" MODIFIED="1695284151999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/YOLOv5$coco2coco128_test.coverage" NAME="coco2coco128_test Coverage Results" MODIFIED="1698030727715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/custom_data" />
+    <SUITE FILE_PATH="coverage/YOLOv5$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1695018821297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/YOLOv5$copy_labels.coverage" NAME="copy_labels Coverage Results" MODIFIED="1697431659437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/custom_data" />
+  </component>
+</project>
