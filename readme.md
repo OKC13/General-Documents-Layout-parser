@@ -1,7 +1,7 @@
 # 通用文档版面分析 | General Document Layout Analysis
 
 ---
-**Read this in other languages: [English](README.md), [中文](README_zh.md).**
+**Read this in other languages: [English](README.md), [中文](readme_zh.md).**
 
 
 ## 1 Introduction：
