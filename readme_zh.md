@@ -35,7 +35,7 @@ ocr开源项目较多，排序模型参考xy_cut。本项目暂不添加此模�
 1、yolov5x：链接：https://pan.baidu.com/s/19PxE7iWRYhD2FSGln8960g 
 提取码：4j3l
 
-2、Layout：链接：https://pan.baidu.com/s/1HoERqJgErZR0p0-8ogA5Tg 
+2、Layout（yolo的layout版面领域训练版本）：链接：https://pan.baidu.com/s/1HoERqJgErZR0p0-8ogA5Tg 
 提取码：fveg
 
 
